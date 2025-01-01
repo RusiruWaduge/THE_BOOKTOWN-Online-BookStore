@@ -1,5 +1,5 @@
 Here's the video link of "THE BOOKTOWN" online bookstore.
-[[https://drive.google.com/file/d/13JExiywFOlQA-3nxSVqDglEcqnP4dzZd/view?usp=drive_link](https://drive.google.com/file/d/1ChJ272nIYhJZkKfkHkp8QAdKDMItVHt-/view?usp=drive_link)](https://drive.google.com/file/d/1ChJ272nIYhJZkKfkHkp8QAdKDMItVHt-/view?usp=sharing)
+https://drive.google.com/file/d/1ChJ272nIYhJZkKfkHkp8QAdKDMItVHt-/view?usp=sharing
 
 
 
