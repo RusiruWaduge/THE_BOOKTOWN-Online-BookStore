@@ -1,3 +1,8 @@
+Here's the video link of "THE BOOKTOWN" online bookstore
+https://drive.google.com/file/d/13JExiywFOlQA-3nxSVqDglEcqnP4dzZd/view?usp=drive_link
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
