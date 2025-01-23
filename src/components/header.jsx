@@ -22,7 +22,7 @@ function Header() {
           style={{ display: "flex", flexDirection: "column", alignItems: "center", textDecoration: "none" }}
         >
           <img
-            src="../src/assets/logo1.png" // Replace with the path to your logo file
+            src="../assets/logo1.png" // Replace with the path to your logo file
             alt="The Book Town Logo"
             style={{
               height: "110px",
