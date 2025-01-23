@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './bookList.css';
-import Header from './Header';
-import Footer from './Footer';
+import Header from './header';
+import Footer from './footer';
 import { FaSearch, FaBook, FaUser, FaStar } from 'react-icons/fa';
 import { useNavigate } from 'react-router-dom';
 
