@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { useParams, useNavigate } from 'react-router-dom'; // Import useNavigate
-import './BookDetails.css';
+import './bookDetails.css';
 import Header from './Header';
 import Footer from './Footer';
 
