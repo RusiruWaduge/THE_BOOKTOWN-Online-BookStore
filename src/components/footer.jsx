@@ -6,11 +6,11 @@ function Footer() {
         alignItems: "center",
         justifyContent: "center",
         backgroundColor: "#FFDB58",
-        padding: "30px 30px", // Reduced padding to shorten the footer height
+        padding: "20px", // Adjusted padding for responsiveness
         boxShadow: "0px -4px 6px rgba(0, 0, 0, 0.1)",
         position: "relative",
         bottom: "0",
-        width: "96%",
+        width: "100%",
         textAlign: "center",
         flexDirection: "column",
         marginTop: "auto",
@@ -22,10 +22,11 @@ function Footer() {
           display: "flex",
           alignItems: "center",
           marginBottom: "10px", // Reduced margin for a more compact layout
+          flexWrap: "wrap", // Allows wrapping on smaller screens
         }}
       >
         <img
-          src="../assets/logo1.png" // Replace with the path to your logo file
+          src="../assets/logo1.png" // Replace with your logo file path
           alt="The Book Town Logo"
           style={{
             height: "40px", // Reduced logo size
@@ -33,11 +34,12 @@ function Footer() {
             marginRight: "10px",
             borderRadius: "8px",
             boxShadow: "0px 2px 4px rgba(0, 0, 0, 0.2)",
+            maxWidth: "100%", // Responsive adjustment
           }}
         />
         <h2
           style={{
-            fontSize: "24px", // Reduced font size for logo text
+            fontSize: "24px", // Adjust font size for larger screens
             fontWeight: "900",
             color: "#222",
             fontFamily: "'Roboto', sans-serif",
@@ -55,8 +57,9 @@ function Footer() {
         style={{
           display: "flex",
           justifyContent: "center",
-          gap: "20px", // Reduced gap between links for a more compact look
-          marginBottom: "10px", // Reduced margin for tighter layout
+          gap: "20px", // Space between links
+          marginBottom: "10px",
+          flexWrap: "wrap", // Wrap links on smaller screens
         }}
       >
         <a
@@ -65,7 +68,8 @@ function Footer() {
             textDecoration: "none",
             color: "#222",
             fontWeight: "500",
-            fontSize: "14px", // Reduced font size for links
+            fontSize: "14px",
+            margin: "5px", // Adds spacing for better wrapping
           }}
         >
           About Us
@@ -76,7 +80,8 @@ function Footer() {
             textDecoration: "none",
             color: "#222",
             fontWeight: "500",
-            fontSize: "14px", // Reduced font size for links
+            fontSize: "14px",
+            margin: "5px",
           }}
         >
           Contact
@@ -87,7 +92,8 @@ function Footer() {
             textDecoration: "none",
             color: "#222",
             fontWeight: "500",
-            fontSize: "14px", // Reduced font size for links
+            fontSize: "14px",
+            margin: "5px",
           }}
         >
           Privacy Policy
@@ -97,7 +103,7 @@ function Footer() {
       {/* Footer Text */}
       <p
         style={{
-          fontSize: "12px", // Reduced font size for footer text
+          fontSize: "12px", // Smaller font for footer text
           color: "#333",
           fontFamily: "'Roboto', sans-serif",
           margin: "0",
@@ -105,6 +111,52 @@ function Footer() {
       >
         © {new Date().getFullYear()} The Book Town. All rights reserved.
       </p>
+
+      {/* Responsive Styles */}
+      <style>
+        {`
+          @media (max-width: 768px) {
+            footer {
+              padding: 15px;
+            }
+
+            footer div img {
+              height: 30px; /* Smaller logo for tablets */
+            }
+
+            footer div h2 {
+              font-size: 20px; /* Smaller heading for tablets */
+            }
+
+            footer div a {
+              font-size: 12px; /* Smaller links for tablets */
+            }
+          }
+
+          @media (max-width: 480px) {
+            footer {
+              padding: 10px;
+            }
+
+            footer div img {
+              height: 25px; /* Smallest logo size for mobile */
+            }
+
+            footer div h2 {
+              font-size: 16px; /* Smallest heading for mobile */
+            }
+
+            footer div a {
+              font-size: 10px; /* Smaller links for mobile */
+              margin: 3px;
+            }
+
+            footer p {
+              font-size: 10px; /* Smaller footer text for mobile */
+            }
+          }
+        `}
+      </style>
     </footer>
   );
 }

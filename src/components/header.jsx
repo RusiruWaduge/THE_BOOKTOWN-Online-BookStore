@@ -19,15 +19,10 @@ function Header() {
         <a
           href="/"
           className="logo-link"
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "center",
-            textDecoration: "none",
-          }}
+          style={{ display: "flex", flexDirection: "column", alignItems: "center", textDecoration: "none" }}
         >
           <img
-            src="https://via.placeholder.com/150" // Replace with your logo URL
+            src="../assets/facebook_1409943.png" // Replace with the path to your logo file
             alt="The Book Town Logo"
             style={{
               height: "110px",
@@ -35,10 +30,9 @@ function Header() {
               marginBottom: "-5px", // Adds space between logo and title
               borderRadius: "10px",
               boxShadow: "0px 2px 4px rgba(0, 0, 0, 0.2)",
-              marginRight: "auto", // Adjusted for responsiveness
-              marginTop: "-48px",
-              marginBottom: "-2px",
-              maxWidth: "100%", // Make it responsive
+              marginRight:"1200px",
+              marginTop:"-48px",
+              marginBottom:"-2px"
             }}
           />
           <h1
@@ -51,7 +45,7 @@ function Header() {
               letterSpacing: "1px", // Adds slight spacing between letters
               textTransform: "uppercase", // Uppercase for emphasis
               textAlign: "center", // Centers the text horizontally
-              marginTop: "-100px",
+              marginTop:"-100px"
             }}
           >
             THE BOOKTOWN
@@ -69,60 +63,14 @@ function Header() {
             letterSpacing: "1px", // Adds slight spacing between letters
             textAlign: "center", // Centers the text horizontally
             position: "absolute", // Absolute position inside the header
-            bottom: "10px", // Positioned 10px from the bottom of the header
-            left: "50%", // Center the text horizontally
+            bottom: "20px", // Positioned 10px from the bottom of the header
+            left: "51%", // Center the text horizontally
             transform: "translateX(-50%)", // Adjust the positioning of the text to be perfectly centered
           }}
         >
           Your Place To Read
         </h3>
       </header>
-
-      {/* Add responsive CSS */}
-      <style>
-        {`
-          @media (max-width: 768px) {
-            .App-header {
-              height: auto; /* Let height adjust dynamically */
-              padding: 15px 10px;
-            }
-
-            .logo-link img {
-              height: 80px; /* Smaller logo for smaller screens */
-              margin-top: 0;
-            }
-
-            .logo-link h1 {
-              font-size: 28px; /* Adjust font size for smaller screens */
-              margin-top: -10px;
-            }
-
-            h3 {
-              font-size: 14px; /* Smaller subtitle font */
-              bottom: 5px;
-            }
-          }
-
-          @media (max-width: 480px) {
-            .App-header {
-              padding: 10px; /* Smaller padding for very small screens */
-            }
-
-            .logo-link img {
-              height: 60px; /* Further reduce logo size */
-            }
-
-            .logo-link h1 {
-              font-size: 20px; /* Adjust font size further for mobile */
-              margin-top: -5px;
-            }
-
-            h3 {
-              font-size: 12px; /* Reduce subtitle font size */
-            }
-          }
-        `}
-      </style>
     </div>
   );
 }
