@@ -173,7 +173,7 @@
 }
 
 .sidebar.open {
-  right: 0;
+  right: 10px;
 }
 
 /* Sidebar Header */
@@ -226,7 +226,7 @@
 /* Open Sidebar Button */
 .open-sidebar {
   position: fixed;
-  top: 20px;
+  top: 155px;
   right: 35px;
   background: linear-gradient(135deg, #696b66 0%, #b6b4c2 100%);
   color: #fff;
